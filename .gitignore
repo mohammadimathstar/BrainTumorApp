@@ -1,0 +1,10 @@
+__pycache__/
+*/__pycache__/*
+
+models/model.pth
+models/model_state.pth
+static/
+reports/
+
+.venv
+.idea

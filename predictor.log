@@ -1,0 +1,26 @@
+2025-04-24 18:58:47,617 - ERROR - Failed to generate heatmap: not enough values to unpack (expected 2, got 1)
+2025-04-24 18:58:47,618 - ERROR - Error during prediction: not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "/home/mohammad/Desktop/github/BrainApp/app.py", line 78, in home
+    heatmap_path, regions_per_dir_path = generate_heatmap(img_tensor, resized_image_array, logger)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mohammad/Desktop/github/BrainApp/flask_utils.py", line 108, in generate_heatmap
+    plot_important_region_per_principal_direction(
+  File "/home/mohammad/Desktop/github/BrainApp/explainability/regions_per_direction.py", line 66, in plot_important_region_per_principal_direction
+    for row_idx, col_idx in ids:
+        ^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+2025-04-24 18:59:15,868 - INFO - Prediction: 'meningioma'
+2025-04-24 18:59:16,013 - INFO - Heatmap generated at static/heatmaps/heatmap_original_image.png
+2025-04-24 19:00:19,542 - INFO - Prediction: 'meningioma'
+2025-04-24 19:00:19,660 - INFO - Heatmap generated at static/heatmaps/heatmap_original_image.png
+2025-04-24 19:04:53,091 - INFO - Prediction: 'meningioma'
+2025-04-24 19:04:53,242 - INFO - Heatmap generated at static/heatmaps/heatmap_original_image.png
+2025-04-24 19:05:25,360 - INFO - Prediction: 'meningioma'
+2025-04-24 19:05:25,510 - INFO - Heatmap generated at static/heatmaps/heatmap_original_image.png
+2025-04-24 19:05:53,704 - INFO - Prediction: 'meningioma'
+2025-04-24 19:05:53,858 - INFO - Heatmap generated at static/heatmaps/heatmap_original_image.png
+2025-04-24 19:06:02,658 - INFO - Prediction: 'meningioma'
+2025-04-24 19:06:02,825 - INFO - Heatmap generated at static/heatmaps/heatmap_original_image.png
+2025-04-24 19:06:45,580 - INFO - Prediction: 'meningioma'
+2025-04-24 19:06:45,718 - INFO - Heatmap generated at static/heatmaps/heatmap_original_image.png
