@@ -78,9 +78,11 @@ Feel free to fork this project and make improvements! If you find bugs or have s
  
 ## References
 
-Please consider citing the following work:
+Please consider citing the following works:
 
-Mohammadi, M., Babai, M., & Wilkinson, M. H. F. (2024). Generalized Relevance Learning Grassmann Quantization. arXiv preprint arXiv:2403.09183.
+Mohammadi, M., Babai, M., & Wilkinson, M. H. F. (2024). Generalized Relevance Learning Grassmann Quantization. IEEE Transactions on Pattern Analysis and Machine Intelligence (2024).
+
+Mohammadi, M., Ghosh, S., A prototype-based model for set classification‏. arXiv preprint arXiv:2408.13720.
 
 ## License
 
