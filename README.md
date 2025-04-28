@@ -1,6 +1,6 @@
 # Brain Tumor Classifier
 
-This is a web application built using **Flask** to classify images (using **AChorDS-LVQ**). The app predicts what type of brain tumor is in an image. In addition to the prediction, it also visualizes a heatmap, capturing the effect of each pixels on the model decision (in a form of heatmap).
+This is a web application built using **Flask** for the diagnosis of brain tumors using Magnetic Resonance Imaging (MRI) (using **AChorDS-LVQ**). It has been trained on the [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset), containing four types of brain tumors: glioma - meningioma - no tumor and pituitary. The app predicts what type of brain tumor is in an image. In addition to the prediction, it also visualizes a heatmap, capturing the effect of each pixels on the model decision (in a form of heatmap).
 
 ## Features
 
