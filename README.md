@@ -4,7 +4,7 @@ This is a web application built using **Flask** for the diagnosis of brain tumor
 
 ## Features
 
-- **Prediction**: Classify the type of the car in the input image (trained on 196 types of cars from the Standford Cars dataset).
+- **Prediction**: Classify the type of the brain tumor in the input image.
 - **Visualization**: Displays the influence of pixels on the model's prediction.
 - **User-friendly Interface**: Upload an image (or a url of an image), and receive immediate predictions and visualizations.
   
