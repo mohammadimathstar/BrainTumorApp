@@ -37,8 +37,8 @@ To use the app, you need to put a trained model in a directory `models`. Follow 
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/housing-eviction-predictor.git
-cd housing-eviction-predictor
+git clone [https://github.com/yourusername/housing-eviction-predictor.git](https://github.com/mohammadimathstar/BrainTumorApp.git)
+cd BrainTumorApp
 ```
 2. Install dependencies:
 
@@ -58,16 +58,16 @@ python app.py
 http://127.0.0.1:5000/
 ```
 
-5. Upload a text file with a legal case description, choose the number of influential words you'd like to display, and submit the form. The app will display the prediction and visualizations of the most influential words for each model.
+5. Upload an MRI image, and submit the form. The app will display the prediction and visualisations of the most influential pixels and region.
 
 
 ## File Format
 
-The input image should be a (.jpg) file. The app will process this image to predict what type of car is present in the image.
+The input image should be a (.jpg) file. The app will process this image to predict what type of tumor is present in the image.
 
 ## Example
 
-This is the visualization generated for an image:
+This is the visualisation generated for an image:
 
 ![plot](./samples/example.png)
 
