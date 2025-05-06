@@ -10,6 +10,8 @@ and achieved 99.7 (+0.1) accuracy.
 
 The app predicts what type of brain tumor is in an image. In addition to the prediction, it also visualizes a heatmap, capturing the effect of each pixels on the model decision (in a form of heatmap).
 
+__Note:__ Its docker image is in: `mohammadimathstar/brain-tumor-app:0.1.1`
+
 ## Features
 
 - **Prediction**: Classify the type of the brain tumor in the input image.
